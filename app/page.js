@@ -27,51 +27,54 @@ const trustItems = [
 export default function Home() {
   return (
     <>
-      {/* HERO */}
+      {/* HERO — dark navy */}
       <section
-        className="bg-gradient-to-br from-slate-50 to-white border-b border-slate-200 py-24 lg:py-36"
+        className="bg-navy py-28 lg:py-44"
         aria-labelledby="hero-heading"
       >
         <div className="max-w-content mx-auto px-6 lg:px-10">
           <div className="max-w-3xl">
+            <p className="text-[0.8125rem] font-semibold tracking-[0.1em] uppercase text-white/40 mb-6">
+              Individual Buyer &nbsp;·&nbsp; Service Businesses
+            </p>
             <h1
               id="hero-heading"
-              className="font-serif text-4xl md:text-5xl lg:text-[3.25rem] font-bold text-navy leading-[1.15] mb-6"
+              className="font-serif text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-white leading-[1.12] mb-7"
             >
               Looking to Buy and Operate One Great Local Business
             </h1>
-            <p className="text-lg lg:text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed">
+            <p className="text-lg lg:text-xl text-white/65 mb-10 max-w-2xl leading-relaxed">
               I&apos;m an individual buyer focused on acquiring a stable service-based business
               and continuing what the owner has built with care, respect, and long-term commitment.
             </p>
-            <div className="flex flex-wrap gap-3.5 mb-6">
+            <div className="flex flex-wrap gap-4 mb-8">
               <a
                 href="/#contact"
-                className="inline-flex items-center justify-center px-7 py-3 bg-navy text-white font-semibold rounded-lg hover:bg-navy-mid hover:shadow-lg transition-all border-2 border-navy text-[0.9375rem]"
+                className="inline-flex items-center justify-center px-7 py-3.5 bg-white text-navy font-semibold rounded-lg hover:bg-stone-100 transition-all border-2 border-white text-[0.9375rem] shadow-md"
               >
                 Start a Conversation
               </a>
             </div>
-            <p className="text-sm text-slate-400 font-medium">
+            <p className="text-sm text-white/35 font-medium">
               No pressure. No broker runaround. Just a confidential conversation.
             </p>
           </div>
         </div>
       </section>
 
-      {/* TRUST STRIP */}
+      {/* TRUST STRIP — warm stone */}
       <section
-        className="bg-white border-b border-slate-200 py-5"
+        className="bg-stone-100 border-b border-stone-200 py-5"
         aria-label="Trust indicators"
       >
         <div className="max-w-content mx-auto px-6 lg:px-10">
-          <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-slate-200">
+          <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-stone-300">
             {trustItems.map((item) => (
               <div
                 key={item}
                 className="flex items-center justify-center gap-2.5 py-4 md:py-3 md:px-8 text-center"
               >
-                <span className="text-blue-700 font-bold text-base shrink-0" aria-hidden="true">
+                <span className="text-blue-700 font-bold text-sm shrink-0" aria-hidden="true">
                   ✓
                 </span>
                 <span className="text-sm font-semibold text-navy">{item}</span>
@@ -81,10 +84,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT */}
+      {/* ABOUT — light stone */}
       <section
         id="about"
-        className="py-24 lg:py-28"
+        className="bg-stone-50 py-24 lg:py-28"
         aria-labelledby="about-heading"
       >
         <div className="max-w-content mx-auto px-6 lg:px-10">
@@ -106,10 +109,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CRITERIA */}
+      {/* CRITERIA — white */}
       <section
         id="criteria"
-        className="bg-slate-50 py-24 lg:py-28"
+        className="bg-white border-y border-stone-200 py-24 lg:py-28"
         aria-labelledby="criteria-heading"
       >
         <div className="max-w-content mx-auto px-6 lg:px-10">
@@ -125,7 +128,7 @@ export default function Home() {
             {criteriaItems.map((item) => (
               <div
                 key={item}
-                className="flex items-start gap-3 bg-white border border-slate-200 rounded-xl p-5 shadow-sm"
+                className="flex items-start gap-3 bg-stone-50 border border-stone-200 rounded-xl p-5"
               >
                 <span className="text-blue-700 font-bold shrink-0 mt-0.5" aria-hidden="true">
                   ✓
@@ -136,27 +139,27 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <p className="text-[0.9375rem] text-slate-500 text-center max-w-2xl mx-auto leading-relaxed">
+          <p className="text-[0.9375rem] text-slate-400 text-center max-w-2xl mx-auto leading-relaxed">
             Industries of interest include commercial cleaning, facilities services, home services,
             maintenance, B2B services, specialty trades, and other practical service businesses.
           </p>
         </div>
       </section>
 
-      {/* OWNER LEGACY */}
+      {/* OWNER LEGACY — dark navy */}
       <section
-        className="py-24 lg:py-28"
+        className="bg-navy py-24 lg:py-28"
         aria-labelledby="legacy-heading"
       >
         <div className="max-w-content mx-auto px-6 lg:px-10">
           <div className="max-w-2xl mx-auto text-center">
             <h2
               id="legacy-heading"
-              className="font-serif text-3xl lg:text-[2.25rem] font-semibold text-navy leading-tight mb-6"
+              className="font-serif text-3xl lg:text-[2.25rem] font-semibold text-white leading-tight mb-6"
             >
               Your Business Deserves a Thoughtful Transition
             </h2>
-            <p className="text-[1.0625rem] text-slate-600 leading-relaxed">
+            <p className="text-[1.0625rem] text-white/65 leading-relaxed">
               For many owners, the business is more than numbers on a spreadsheet. It represents
               years of work, relationships, reputation, and sacrifice. I understand that a sale is
               not just a transaction. It is a transition. My goal is to approach that process with
@@ -166,10 +169,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PROCESS */}
+      {/* PROCESS — stone */}
       <section
         id="process"
-        className="bg-slate-50 py-24 lg:py-28"
+        className="bg-stone-50 py-24 lg:py-28"
         aria-labelledby="process-heading"
       >
         <div className="max-w-content mx-auto px-6 lg:px-10">
@@ -185,9 +188,9 @@ export default function Home() {
             {processSteps.map((step) => (
               <li
                 key={step.num}
-                className="bg-white border border-slate-200 rounded-2xl p-7 shadow-sm list-none"
+                className="bg-white border border-stone-200 rounded-2xl p-7 shadow-sm list-none"
               >
-                <div className="font-serif text-[2rem] font-bold text-slate-200 leading-none mb-4">
+                <div className="font-serif text-[2rem] font-bold text-stone-200 leading-none mb-4">
                   {step.num}
                 </div>
                 <h3 className="font-serif text-[1.0625rem] font-semibold text-navy leading-snug">
@@ -199,10 +202,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONTACT */}
+      {/* CONTACT — white */}
       <section
         id="contact"
-        className="py-24 lg:py-28"
+        className="bg-white border-t border-stone-200 py-24 lg:py-28"
         aria-labelledby="contact-heading"
       >
         <div className="max-w-content mx-auto px-6 lg:px-10">
@@ -230,7 +233,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-8 shadow-sm">
+            <div className="bg-stone-50 border border-stone-200 rounded-2xl p-8 shadow-sm">
               <ContactForm />
             </div>
           </div>
