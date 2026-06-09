@@ -14,61 +14,56 @@ export default function PrivacyPage() {
 
         <div className="space-y-10 text-[1rem] text-slate-600 leading-relaxed">
           <div>
-            <h2 className="font-serif text-xl font-semibold text-navy mb-3">Overview</h2>
-            <p>
-              This website is operated by Ridge Garibaldi, an individual buyer evaluating potential
-              business acquisitions. This privacy policy explains how information submitted through
-              the contact form on this website is collected and used.
-            </p>
-          </div>
-
-          <div>
             <h2 className="font-serif text-xl font-semibold text-navy mb-3">
               Information Collected
             </h2>
             <p>
-              When you submit the contact form on this website, the following information may be
-              collected:
+              This website collects information you voluntarily provide through the contact form,
+              including your name, email address, phone number, and any details you share about
+              your business. No information is collected automatically beyond standard server logs.
             </p>
-            <ul className="mt-4 space-y-2 list-disc list-inside text-slate-600">
-              <li>Your name</li>
-              <li>Your email address</li>
-              <li>Your phone number (if provided)</li>
-              <li>Your business name (if provided)</li>
-              <li>The contents of your message</li>
-            </ul>
           </div>
 
           <div>
             <h2 className="font-serif text-xl font-semibold text-navy mb-3">
-              How Information Is Used
+              How It Is Used
             </h2>
             <p>
-              Information submitted through this website is used solely to respond to your inquiry
-              and to evaluate whether there may be a potential business acquisition conversation
-              worth pursuing. Your information will not be sold, shared with third parties, or used
-              for marketing purposes.
+              Information you submit is used solely to respond to your inquiry and evaluate a
+              potential business acquisition conversation. Your information is not sold, rented,
+              or shared with third parties for marketing purposes.
             </p>
           </div>
 
           <div>
             <h2 className="font-serif text-xl font-semibold text-navy mb-3">Confidentiality</h2>
             <p>
-              All inquiries are treated as confidential. Any information you share about yourself
-              or your business will be handled with discretion and respect.
+              Any business information you share through this website will be treated with strict
+              confidentiality. Ridge Garibaldi will not disclose details of your business or
+              inquiry to outside parties without your consent.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="font-serif text-xl font-semibold text-navy mb-3">
+              Third-Party Services
+            </h2>
+            <p>
+              This website is hosted on Vercel. Standard hosting and analytics data may be
+              processed in accordance with their respective privacy policies. No advertising
+              trackers or third-party analytics are intentionally deployed on this site.
             </p>
           </div>
 
           <div>
             <h2 className="font-serif text-xl font-semibold text-navy mb-3">Contact</h2>
             <p>
-              If you have any questions about this privacy policy, you may contact Ridge Garibaldi
-              directly at{' '}
+              Questions about this privacy policy may be directed to{' '}
               <a
-                href="mailto:therhehan@gmail.com"
+                href="mailto:ridge@garibaldiindustriesllc.com"
                 className="text-blue-700 font-medium hover:underline"
               >
-                therhehan@gmail.com
+                ridge@garibaldiindustriesllc.com
               </a>
               .
             </p>
