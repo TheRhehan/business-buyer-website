@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
 
         {/* FOOTER */}
-        <footer className="bg-navy border-t border-white/5 py-10" role="contentinfo">
+        <footer className="bg-[#070e1a] border-t border-white/5 py-10" role="contentinfo">
           <div className="max-w-content mx-auto px-6 lg:px-10">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
               <div>
