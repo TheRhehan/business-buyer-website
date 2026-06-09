@@ -8,6 +8,6 @@
   }
 
   body {
-    @apply font-sans antialiased bg-white text-navy;
+    @apply font-sans antialiased bg-stone-50 text-navy;
   }
 }
