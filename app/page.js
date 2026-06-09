@@ -226,10 +226,10 @@ export default function Home() {
                   Or email directly:
                 </span>
                 <a
-                  href="mailto:therhehan@gmail.com"
+                  href="mailto:ridge@garibaldiindustriesllc.com"
                   className="text-base font-semibold text-blue-700 hover:underline"
                 >
-                  therhehan@gmail.com
+                  ridge@garibaldiindustriesllc.com
                 </a>
               </div>
             </div>
