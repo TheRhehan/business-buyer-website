@@ -62,10 +62,10 @@ export default function TermsPage() {
             <p>
               Questions about these terms may be directed to{' '}
               <a
-                href="mailto:therhehan@gmail.com"
+                href="mailto:ridge@garibaldiindustriesllc.com"
                 className="text-blue-700 font-medium hover:underline"
               >
-                therhehan@gmail.com
+                ridge@garibaldiindustriesllc.com
               </a>
               .
             </p>
